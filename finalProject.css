@@ -1,0 +1,331 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: Gilroy;
+}
+html,
+body
+{
+width: 100%;
+height: 100%;
+}
+#main{
+    width : 100%;
+}
+
+#page1{
+    position: relative;
+    overflow: hidden;
+    width : 100%;
+    height : 100vh;
+}
+
+#page1>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+#center{
+    width: 44vw;
+    height: 44vw;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+#circle{
+    width: 28vw;
+    height: 28vw;
+    background-color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+
+#center #top{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    rotate : -180deg;
+}
+#center #bottum{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#center #top img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#center #bottum img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#center #top img:nth-child(1)
+{
+    scale: 2.6;
+}
+#center #top img:nth-child(2)
+{
+    scale: 1.6;
+}
+#center #bottum img:nth-child(1)
+{
+    scale: 2.6;
+}
+#center #bottum img:nth-child(2)
+{
+    scale: 1.6;
+}
+
+#centerimage{
+    width: 25vw;
+    height: 20vw;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#centerimage h5{
+    text-transform : uppercase;
+    color: rgba(0, 0, 0, 0.448);
+    font-size: 20px;
+}
+#centerimage #cimage{
+    width: 100%;
+    height: 75%;
+    position: absolute;
+}
+#cimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page1>h1{
+    font-size: 11vw;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.838);
+    transform: translate(-50%,0);
+    font-weight: 400;
+    z-index: 10;
+    font-family: "neue haas grotesk text pro";
+}
+
+#top-nav{
+    width: 100%;
+    height: 75px;
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+}
+#bottum-nav{
+    width: 100%;
+    height: 75px;
+    padding: 0px 40px;
+    position: absolute;
+    bottom: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+#top-nav h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    opacity: .7;
+    font-family: "neue haas grotesk text pro";
+}
+#box{
+     width: 120px;
+     height: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+}
+#box #boxA{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 140%;  
+    color: rgb(33, 29, 29);
+}
+#box #boxA h1{
+    font-size: 18px;
+    font-family: "DS-digital";
+}
+#box1{
+    width: 20px;
+    height: 100%;
+    background-color: rgb(235, 235, 235);
+}
+#box2{
+    width: 20px;
+    height: 100%;
+    background-color: rgb(207.5,207.5,207.5);
+}
+#box3{
+    width: 20px;
+    height: 100%;
+    background-color: rgb(165,165,165);
+}
+#box4{
+    width: 20px;
+    height: 100%;
+    background-color: rgb(125.5,125.5,125.5);
+}
+#box5{
+    width: 20px;
+    height: 100%;
+    background-color: rgb(85,85,85);
+}
+#box6{
+    width: 20px;
+    height: 100%;
+    background-color: rgb(42.5,42.5,42.5);
+}
+#pcircle{
+    width: 8vw;
+    height: 8vw;
+    position:absolute;
+    background-color: #D5A7B4;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index : 99;
+    scale: 1;
+}
+#pinkflare{
+    position: absolute;
+    z-index: 999;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,0%);
+
+}
+#pinkflare h1{
+    font-size: 13vw;
+    color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 600;
+}
+#info{
+    position: absolute;
+    z-index: 99;
+    width: 33vw;
+    height: 30vw;
+    background-color: #D5A7B4;
+    top: 150%;
+}
+#ph{
+    position: absolute;
+    top : 40%;
+    left : 11%;
+}
+#in{
+    font-size: 15px;
+    font-weight: 390;
+    color: white;
+    text-transform: uppercase;
+}
+#tt{
+    padding-top: 10px;
+}
+.marin{
+        font-size: 15px;
+        font-weight: 390;
+        color: white;
+        text-transform: uppercase;
+        padding-left: 30px;
+}
+#color-model{
+    position: absolute;
+    top : 80%;
+    left : 11%;
+    display: flex;
+    gap : 40px;
+}
+.model{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    font-family: "DS-digital";  
+}
+.model sup{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+#page2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+#sectionA{
+    width: 100%;
+    height: 65%;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.223);
+}
+#sectionA #cA{
+    width: 20vw;
+    height: 20vw;
+    background-color: rgba(108, 6, 108, 0.337);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%,-50%);
+}
+#sectionA #cB{
+    width: 20vw;
+    height: 20vw;
+    background-color:#D5A7B4;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+}
+
+#sectionB{
+    width: 100%;
+    height: 35%;
+    position: relative;
+}
+#sectionB h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    line-height: 55px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0, 0.888);
+    font-weight: 450;
+}
+#sectionB #magenta{
+    display: none;
+}
