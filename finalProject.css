@@ -431,3 +431,10 @@ height: 100%;
         bottom : -4%;
     }
 }
+
+@media(max-width : 900px)
+{
+    .model {
+        font-size: 15px;
+    }  
+}
